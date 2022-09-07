@@ -141,6 +141,12 @@ ALTER TABLE public."user" OWNER TO shinyproxy;
 
 COPY public.booking (id, userid, entrytime, hotelid, price, status) FROM stdin;
 1	1	2022-09-01 10:05:34	5	1206.4	valid
+2	2	2022-09-01 11:55:19	2	2576.43	valid
+3	1	2022-09-02 21:13:49	17	539.76	canceled
+4	3	2022-09-03 08:52:00	2	3108.04	valid
+5	4	2022-09-03 12:11:15	2	2161.61	valid
+6	5	2022-09-03 23:51:42	3	411.82	error
+7	5	2022-09-04 06:13:51	5	1241.14	valid
 \.
 
 
